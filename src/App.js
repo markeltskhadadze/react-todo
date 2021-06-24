@@ -78,7 +78,7 @@ class App extends React.Component {
   };
 
   deleteList = (id) => {
-    const { list,listSelected } = this.state;
+    const { list } = this.state;
     // list.filter(item => console.log(item.id))
     this.setState({
       list: list.filter((item) => item.id),
